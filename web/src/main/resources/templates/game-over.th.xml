@@ -1,0 +1,21 @@
+<thlogic>
+  <attr sel="#headId"
+    th:replace="~{fragments/head :: headFragment}"
+  />
+  <attr sel="#game-over-title" th:text="#{game.over.title}"/>
+  <attr sel="#game-over-text" th:text="#{game.over.text}"/>
+  <attr sel="#result-text"
+    th:text="${__${T(merewolf.learnprogramming.util.AttributeNames).RESULT_MESSAGE}__}"
+  />
+  <attr sel="#restart-link"
+    th:href="@{__${T(merewolf.learnprogramming.util.GameMappings).RESTART}__}"
+    th:text="#{game.restart.text}"
+  />
+  <attr sel="#home-link"
+    th:href="@{__${T(merewolf.learnprogramming.util.GameMappings).HOME}__}"
+    th:text="#{game.home.link}"
+  />
+  <attr sel="#footerId"
+    th:replace="~{fragments/footer :: footerFragment}"
+  />
+</thlogic>

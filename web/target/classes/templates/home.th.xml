@@ -1,0 +1,13 @@
+<thlogic>
+  <attr sel="#headId"
+    th:replace="~{fragments/head :: headFragment}"
+  />
+  <attr sel="#welcome-message" th:text="#{game.title}"/>
+  <attr sel="#play-link"
+    th:href="@{__${T(merewolf.learnprogramming.util.GameMappings).PLAY}__}"
+    th:text="#{game.play.text}"
+  />
+  <attr sel="#footerId"
+    th:replace="~{fragments/footer :: footerFragment}"
+  />
+</thlogic>

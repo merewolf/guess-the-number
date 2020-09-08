@@ -1,0 +1,10 @@
+merewolf\learnprogramming\config\WebConfig.class
+merewolf\learnprogramming\util\ViewNames.class
+merewolf\learnprogramming\service\GameServiceImpl.class
+merewolf\learnprogramming\controller\GameController.class
+merewolf\learnprogramming\util\GameMappings.class
+merewolf\learnprogramming\service\GameService.class
+merewolf\learnprogramming\util\AttributeNames.class
+merewolf\learnprogramming\WebMain.class
+merewolf\learnprogramming\util\thymeleaf\DecoupledLogicSetup.class
+merewolf\learnprogramming\interceptor\RequestInterceptor.class

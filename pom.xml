@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <artifactId>guess-the-number-game</artifactId>
+
+  <groupId>org.merewolf</groupId>
+  <modelVersion>4.0.0</modelVersion>
+  <modules>
+    <module>core</module>
+    <module>console</module>
+    <module>web</module>
+  </modules>
+
+  <packaging>pom</packaging>
+
+  <parent>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <groupId>org.springframework.boot</groupId>
+    <relativePath/>
+    <version>2.3.2.RELEASE</version>
+  </parent>
+  <properties>
+    <java.version>11</java.version>
+  </properties>
+
+  <version>1.0-SNAPSHOT</version>
+
+</project>
